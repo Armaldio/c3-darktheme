@@ -1,0 +1,33 @@
+@-moz-document domain("editor.construct.net") {
+ui-caption,
+ui-dialog-caption {
+    border-radius: 2px;
+}
+.eventSheetView {
+    --event-sheet-background-color: #1b1b1b;
+    background-color: var(--event-sheet-background-color);
+}
+.conditionBlock {
+    background-color: #4c4c4c;
+    border: 1px solid #0e0e0e;
+}
+.conditionObjectNameSpan,
+.actionObjectNameSpan,
+.actionDescCell {
+    color: white;
+}
+.conditionDescCell {
+    background-color: #616161;
+    color: white;
+}
+.conditionFiller {
+    background-color: #656565;
+}
+.actionDescCell,
+.actionNameCell {
+    background-color: #565656;
+}
+.addActionRow {
+    background-color: #232323;
+}
+}
